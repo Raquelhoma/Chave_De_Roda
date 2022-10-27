@@ -4,6 +4,14 @@ Projeto final da disciplina de Progração para dispositivos móveis - Estácio
 Aplicativo em React Native com banco de dados.
 App Chave de roda
 
+Foi feito FrontEnd do projeto, login e registro em banco de dados.
+O que falta ser feito: 
+1- melhorar inputs de datas e horários.
+2- Adicionar funcionalidade de editar e deletar agendamentos.
+3- Pegar e imprimir nome do usuário.
+4- Adicionar validações
+
+
 
 https://user-images.githubusercontent.com/65344071/198414095-ad4e5d1c-acd4-4954-8eea-98cf1b374d3c.mp4
 
