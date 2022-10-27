@@ -10,7 +10,7 @@ Alunos: Antônio Marcos dos Santos Sobrinho Matricula: 202001238549 <br/>
 Aplicativo em React Native com banco de dados.
 App Chave de roda
 </h4>
-Foi feito FrontEnd do projeto, login e registro em banco de dados.
+Foi feito FrontEnd do projeto, login e registro em banco de dados.<br/>
 O que falta ser feito: 
 1- melhorar inputs de datas e horários.<br/>
 2- Adicionar funcionalidade de editar e deletar agendamentos.<br/>
