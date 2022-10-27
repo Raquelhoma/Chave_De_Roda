@@ -2,9 +2,9 @@
 
 <h4>
 Projeto final da disciplina de Progração para dispositivos móveis - Estácio 
-        <br/>
+        <br/><br/>
 Alunos: Antônio Marcos dos Santos Sobrinho Matricula: 202001238549 <br/>
-        Maria Raquel Prado Homa Dialectaquiz Matrícula: 202001584651
+        Maria Raquel Prado Homa Dialectaquiz Matrícula: 202001584651<br/><br/>
         
 
 Aplicativo em React Native com banco de dados.
