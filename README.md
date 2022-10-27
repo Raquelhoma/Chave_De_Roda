@@ -11,7 +11,7 @@ Aplicativo em React Native com banco de dados.
 App Chave de roda
 </h4>
 Foi feito FrontEnd do projeto, login e registro em banco de dados em Cloud, usando Firebase..<br/>
-O que falta ser feito: 
+O que falta ser feito: <br/>
 1- melhorar inputs de datas e horários.<br/>
 2- Adicionar funcionalidade de editar e deletar agendamentos.<br/>
 3- Pegar e imprimir nome do usuário.<br/>
