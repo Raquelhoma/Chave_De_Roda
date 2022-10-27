@@ -1,4 +1,6 @@
 # Chave_De_Roda
+
+<h4>
 Projeto final da disciplina de Progração para dispositivos móveis - Estácio 
 Alunos: Antônio Marcos dos Santos Sobrinho Matricula: 202001238549
         Maria Raquel Prado Homa Dialectaquiz Matrícula: 202001584651
@@ -6,7 +8,7 @@ Alunos: Antônio Marcos dos Santos Sobrinho Matricula: 202001238549
 
 Aplicativo em React Native com banco de dados.
 App Chave de roda
-
+</h4>
 Foi feito FrontEnd do projeto, login e registro em banco de dados.
 O que falta ser feito: 
 1- melhorar inputs de datas e horários.
