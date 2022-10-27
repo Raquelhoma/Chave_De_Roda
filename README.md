@@ -3,7 +3,7 @@
 <h4>
 Projeto final da disciplina de Progração para dispositivos móveis - Estácio 
         <br/>
-Alunos: Antônio Marcos dos Santos Sobrinho Matricula: 202001238549
+Alunos: Antônio Marcos dos Santos Sobrinho Matricula: 202001238549 <br/>
         Maria Raquel Prado Homa Dialectaquiz Matrícula: 202001584651
         
 
@@ -12,10 +12,10 @@ App Chave de roda
 </h4>
 Foi feito FrontEnd do projeto, login e registro em banco de dados.
 O que falta ser feito: 
-1- melhorar inputs de datas e horários.
-2- Adicionar funcionalidade de editar e deletar agendamentos.
-3- Pegar e imprimir nome do usuário.
-4- Adicionar validações
+1- melhorar inputs de datas e horários.<br/>
+2- Adicionar funcionalidade de editar e deletar agendamentos.<br/>
+3- Pegar e imprimir nome do usuário.<br/>
+4- Adicionar validações<br/>
 
 
 
