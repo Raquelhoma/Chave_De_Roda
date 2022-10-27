@@ -1,5 +1,8 @@
 # Chave_De_Roda
 Projeto final da disciplina de Progração para dispositivos móveis - Estácio 
+Alunos: Antônio Marcos dos Santos Sobrinho Matricula: 202001238549
+        Maria Raquel Prado Homa Dialectaquiz Matrícula: 202001584651
+        
 
 Aplicativo em React Native com banco de dados.
 App Chave de roda
