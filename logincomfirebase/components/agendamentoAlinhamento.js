@@ -32,7 +32,10 @@ export default function AgendamentoAlinhamento ({navigation}) {
         <Card >
           <Card.Title>Data do Agendamento</Card.Title>     
           <TextInput type="datetime" style={estilos.input} placeholder="dd/mm/aaaa" value={dataDoAgendamento} onChangeText={setdataDoAgendamento} />
+    
         </Card>
+
+        <DatePicker selected={startDate} onChange={(date:Date) => setStartDate(date)} />
 
         <Card >
           <Card.Title>Horário</Card.Title>     

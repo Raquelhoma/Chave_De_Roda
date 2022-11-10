@@ -9,6 +9,8 @@ import ListarAgendamentos from './components/listarAgendamentos';
 import AgendamentoTrocaDeOleo from './components/agendamentoTrocaDeOleo';
 import AgendamentoBalanceamento from './components/agendamentoBalanceamento';
 import AgendamentoLavagem from './components/agendamentoLavagem';
+import Comentar from './components/comentar';
+import ListarComentarios from './components/listarComentarios';
 import firebase from 'firebase'
 import firebaseConfig from './database/Firebase'
 
@@ -89,7 +91,23 @@ function Home(){
          //{headerLeft: null} 
        }
       />
-    </Stack.Navigator>
+      <Stack.Screen 
+       name="Comentar" 
+       component={Comentar} 
+       options={
+         { title: 'Comentar' }
+         //{headerLeft: null} 
+       }
+      />
+      <Stack.Screen 
+       name="ListarComentarios" 
+       component={ListarComentarios} 
+       options={
+         { title: 'Listar Comentários' }
+         //{headerLeft: null} 
+       }
+      />
+     </Stack.Navigator>
   )
 }
 

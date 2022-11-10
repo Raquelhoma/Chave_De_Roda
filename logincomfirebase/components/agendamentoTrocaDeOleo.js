@@ -45,7 +45,7 @@ export default function AgendamentoTrocaDeOleo ({navigation}) {
 }
 const estilos = StyleSheet.create({
   input: {
-    width: '100%',
+    width: '100%', 
     marginBottom: 15,
     paddingBottom: 15,
     alignSelf: "center",
