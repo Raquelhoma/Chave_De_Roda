@@ -1,20 +1,20 @@
 import React, {Component, useState, useEffect} from 'react'
-import {View, TextInput, StyleSheet, Button, Text, FlatList} from 'react-native'
+import {View, TextInput, StyleSheet, Button, Text} from 'react-native'
 import firebase from 'firebase';
 import {Card} from 'react-native-elements'
 
-export default function ListarAgendamentos ({navigation}) {
+export default function ListarComentarios ({navigation}) {
   
-  const [agendamentos, setAgendamentos] = useState([]);
+  const [comentarios, getComentarios] = useState([]);
 
    useEffect(()=>{
     db = firebase.firestore();
-    db.collection('agendamento').get().then((querySnapShot)=> {
+    db.collection('comentario').get().then((querySnapShot)=> {
       const list = [];
       querySnapShot.forEach((doc) => {
         list.push(doc.data())
       })
-      setAgendamentos(list);
+      getComentarios(list);
     });
   }, [])  
 
@@ -23,11 +23,10 @@ export default function ListarAgendamentos ({navigation}) {
   return(
       <View style={styles.container}>
         <Card >
-          <Card.Title>Agendamentos</Card.Title>  
-          <Card.Divider/>    
-          {agendamentos.map((agendamento, index) => {
-            return <Text key={agendamento.tipoDeVeiculo}> {index + 1} - {agendamento.tipoDeServico} {agendamento.tipoDeVeiculo} {agendamento.dataDoAgendamento} {agendamento.horario} </Text>
-            
+          <Card.Title>Comentários</Card.Title>  
+          <Card.Divider/>      
+          {comentarios.map((comentario, index) => {
+            return <Text> {index + 1} {comentario.comentario}  </Text>
         })}        
         </Card>
 
@@ -56,7 +55,7 @@ const styles = StyleSheet.create({
     display: "flex",
     flexDirection: "column",
     justifyContent: "center",
-    padding: 10,
+    padding: 35,
     backgroundColor: '#fff'
   }
 });

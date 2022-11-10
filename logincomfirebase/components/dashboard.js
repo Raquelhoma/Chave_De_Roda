@@ -81,8 +81,10 @@ export default class Dashboard extends Component {
       <Button color="#3740FE"
          title='Checar Agendamentos' 
          onPress={() => this.props.navigation.navigate('ListarAgendamentos')}
-         />
-         <br/>
+         />         
+        <br/>
+        <Button color="#3740FE" title='Comentar' onPress={() => this.props.navigation.navigate('Comentar') }/>
+        <br/>
         <Button color="#3740FE"
            title="Logout"
           onPress={() => this.signOut()}
